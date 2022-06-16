@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    align-items: center;
+    background-color: #6E9E54;
+    border-radius: 3%; 
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    width: 50%;
+}
+.check {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+.final-color {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: red;
+    border-radius: 50%;
+}
+.elige{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+}
+.colordiv{
+    display: flex;
+    align-items: center;
+}
+.colordiv p{
+    padding-right: 1rem;
+}
+.precio1{
+    display: flex;
+}
+.precio1 p{
+    padding-right: 1rem;
+}
+#boton{
+    margin-bottom: 2rem;
+}
